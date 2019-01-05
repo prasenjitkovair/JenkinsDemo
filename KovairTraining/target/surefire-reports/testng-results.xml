@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.mycompany_KovairTraining_jar_1.0-SNAPSHOT" duration-ms="20462" started-at="2018-09-06T18:17:13Z" finished-at="2018-09-06T18:17:34Z">
+    <groups>
+    </groups>
+    <test name="KovTestPackage suite" duration-ms="20462" started-at="2018-09-06T18:17:13Z" finished-at="2018-09-06T18:17:34Z">
+      <class name="KovTestPackage.LoginTesting">
+        <test-method status="PASS" signature="opensite()" name="opensite" is-config="true" duration-ms="17532" started-at="2018-09-06T18:17:13Z" finished-at="2018-09-06T18:17:31Z">
+        </test-method>
+        <test-method status="PASS" signature="setUpClass()" name="setUpClass" is-config="true" duration-ms="1" started-at="2018-09-06T18:17:31Z" finished-at="2018-09-06T18:17:31Z">
+        </test-method>
+        <test-method status="PASS" signature="blankpasswordcheck(java.lang.String)" name="blankpasswordcheck" duration-ms="1444" started-at="2018-09-06T18:17:31Z" finished-at="2018-09-06T18:17:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ks]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="setUpMethod()" name="setUpMethod" is-config="true" duration-ms="0" started-at="2018-09-06T18:17:31Z" finished-at="2018-09-06T18:17:31Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDownMethod()" name="tearDownMethod" is-config="true" duration-ms="1" started-at="2018-09-06T18:17:32Z" finished-at="2018-09-06T18:17:32Z">
+        </test-method>
+        <test-method status="PASS" signature="logincheck(java.lang.String)" name="logincheck" duration-ms="558" started-at="2018-09-06T18:17:32Z" finished-at="2018-09-06T18:17:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jshd]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="setUpMethod()" name="setUpMethod" is-config="true" duration-ms="0" started-at="2018-09-06T18:17:32Z" finished-at="2018-09-06T18:17:32Z">
+        </test-method>
+        <test-method status="PASS" signature="closeBrowser()" name="closeBrowser" is-config="true" duration-ms="910" started-at="2018-09-06T18:17:33Z" finished-at="2018-09-06T18:17:34Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDownClass()" name="tearDownClass" is-config="true" duration-ms="0" started-at="2018-09-06T18:17:33Z" finished-at="2018-09-06T18:17:33Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDownMethod()" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2018-09-06T18:17:33Z" finished-at="2018-09-06T18:17:33Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

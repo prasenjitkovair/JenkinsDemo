@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="LAPTOP32" name="KovTestPackage.SampleTestNGClass" tests="4" failures="0" timestamp="5 Sep 2018 11:13:58 GMT" time="0.038" errors="0">
+  <testcase name="BLnkPassword" time="0.001" classname="KovTestPackage.SampleTestNGClass"/>
+  <testcase name="BLnkUsername" time="0.001" classname="KovTestPackage.SampleTestNGClass"/>
+  <testcase name="BLnkUsername" time="0.0" classname="KovTestPackage.SampleTestNGClass"/>
+  <testcase name="BLnkUsername" time="0.001" classname="KovTestPackage.SampleTestNGClass"/>
+</testsuite>
