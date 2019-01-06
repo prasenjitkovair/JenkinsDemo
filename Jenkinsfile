@@ -8,6 +8,7 @@ pipeline
 			steps
 			{
 				echo 'building..'
+				echo "M2_HOME = ${M2_HOME}"
 			}
 		}
 		
