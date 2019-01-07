@@ -9,7 +9,7 @@ pipeline
 			{
 				git 'https://github.com/prasenjitkovair/JenkinsDemo.git'
 				
-				sh 'mvn -f KovairTraining/pom.xml compile'
+				sh 'mvn -f ./KovairTraining/pom.xml compile'
 				
 			}
 		}
