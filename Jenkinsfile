@@ -9,9 +9,7 @@ pipeline
 			{
 				git 'https://github.com/prasenjitkovair/JenkinsDemo.git'
 				
-				withMaven(maven : 'maven_3_6_0'){
-                    sh 'mvn clean compile'
-                }
+				bat 'mvn compile'
 				
 			}
 		}
