@@ -9,9 +9,11 @@ pipeline
 			{
 				git 'https://github.com/prasenjitkovair/JenkinsDemo.git'
 				
-				sh '''pwd
-				ls -l
-				mvn compile'''
+				def mvn_version = 'maven_3_5_4'
+				withEnv( ["PATH+MAVEN=${tool mvn_version}/bin"] ) {
+				  sh "mvn -f KovairTraining/pom.xml compile"
+				}
+				
 				
 			}
 		}
