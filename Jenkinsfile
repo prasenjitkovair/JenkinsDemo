@@ -22,7 +22,7 @@ pipeline
 			{ 
 				success { 
 					echo 'Archiving the Artifact..'
-					archiveArtifacts artifacts: 'target/*.jar'
+					archiveArtifacts artifacts: 'KovairTraining/target/*.jar'
 				}
 			}
 			
