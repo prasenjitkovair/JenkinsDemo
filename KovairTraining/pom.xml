@@ -28,6 +28,7 @@
                             <suiteXmlFiles>
                                 <suiteXmlFile>target/nb-private/testng-suite.xml</suiteXmlFile>
                             </suiteXmlFiles>
+							<outputDirectory>/home/kovair/JavaProj</outputDirectory>
                         </configuration>
                     </plugin>
                 </plugins>
